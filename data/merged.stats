@@ -1,0 +1,30 @@
+# gffcompare v0.12.8 | Command line was:
+#gffcompare -r ../data/a_fumigatus_Af293.gtf -G ../data/stringtie_merged.gtf -o ../data/merged
+#
+
+#= Summary for dataset: ../data/stringtie_merged.gtf 
+#     Query mRNAs :   18400 in   10812 loci  (15441 multi-exon transcripts)
+#            (4850 multi-transcript loci, ~1.7 transcripts per locus)
+# Reference mRNAs :    9916 in    9897 loci  (7566 multi-exon)
+# Super-loci w/ reference transcripts:     9479
+#-----------------| Sensitivity | Precision  |
+        Base level:   100.0     |    76.2    |
+        Exon level:    87.6     |    55.1    |
+      Intron level:   100.0     |    70.0    |
+Intron chain level:   100.0     |    49.0    |
+  Transcript level:    98.8     |    53.2    |
+       Locus level:    98.9     |    87.0    |
+
+     Matching intron chains:    7566
+       Matching transcripts:    9794
+              Matching loci:    9788
+
+          Missed exons:       0/28539	(  0.0%)
+           Novel exons:    7062/46171	( 15.3%)
+        Missed introns:       0/18623	(  0.0%)
+         Novel introns:    5884/26602	( 22.1%)
+           Missed loci:       0/9897	(  0.0%)
+            Novel loci:    1333/10812	( 12.3%)
+
+ Total union super-loci across all input datasets: 10812 
+18400 out of 18400 consensus transcripts written in ../data/merged.annotated.gtf (0 discarded as redundant)
