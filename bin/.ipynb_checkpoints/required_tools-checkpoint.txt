@@ -1,7 +1,0 @@
-SRA Toolkit: prefetch and fastq-dump
-AGAT: agat_convert_sp_gff2gtf.pl. https://github.com/NBISweden/AGAT
-HISAT2. https://daehwankimlab.github.io/hisat2/download/
-SAMtools. http://www.htslib.org/download/
-StringTie and prepDE.py. https://github.com/gpertea/stringtie
-gffcompare. https://github.com/gpertea/gffcompare
-Ballgown. 
